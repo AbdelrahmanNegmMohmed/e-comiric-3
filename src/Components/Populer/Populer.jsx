@@ -11,7 +11,7 @@ const Populer = () => {
         <hr />
         <div className='popular-item'>
         {data_product.map((item,i)=>{
-             return <Item key={i}
+             return <Item key={i} //import you should put key and value
              id={item.id}
              name={item.name}
              image={item.image}

@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom'
 
 function NavBar() {
     const [menu,setMenu] = useState("shop")
-
-
-
   return (
     <div className='navbar'>
         <div className='nav-logo'>
@@ -34,4 +31,4 @@ function NavBar() {
   )
 }
 
-export default NavBar
+export default NavBar;

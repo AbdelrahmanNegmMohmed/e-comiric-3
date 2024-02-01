@@ -1,5 +1,4 @@
 import React from 'react'
-import Populer from '../Populer/Populer'
 import "./Item.css"
 
 const Item = (props) => {
