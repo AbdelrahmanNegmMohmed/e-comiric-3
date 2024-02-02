@@ -4,7 +4,6 @@ import data_product from "../Assets/data"
 import Item from '../Item/Item'
 
 const Populer = () => {
-    console.log(data_product);
   return (
     <div className='populer'>
         <h1>POPULAR IN WOMEN</h1>
