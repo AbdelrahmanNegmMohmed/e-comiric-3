@@ -4,9 +4,10 @@ import { Shopcontext } from '../../Context/ShopContext'
 import remov_icon from "../Assets/cart_cross_icon.png"
 
 const CartItemsend = () => {
-    const {all_product,cartItems,removeFromCart}=useContext(Shopcontext)
+    const {getTotalCartAmount,all_product,cartItems,removeFromCart}=useContext(Shopcontext)
     console.log(all_product,"all products");
     console.log(cartItems,"cart items");
+    console.log(getTotalCartAmount(),"git total");
   return (
     <div className='cartitems'>
           <div className="cartitems-format-main">
@@ -42,7 +43,7 @@ const CartItemsend = () => {
                 <div>
                     <div className="cartitems-total-item">
                         <p>Subtotal</p>
-                        <p>${}</p>
+                        <p>${getTotalCartAmount()}</p>
                     </div>
                     <hr />
                     <div className='cartitems-total-item'>
@@ -52,7 +53,7 @@ const CartItemsend = () => {
                     <hr />
                     <div className="cartitems-total-item">
                         <h3>Total</h3>
-                        <h3>${0}</h3>
+                        <h3>${getTotalCartAmount()}</h3>
                     </div>
                 </div>
                 <button>PRODUCT TO CHECKOUT</button>
