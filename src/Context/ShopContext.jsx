@@ -28,6 +28,7 @@ const ShopContextprovider = (props) => {
     [itemId]:prev[itemId]-1
   }))
     }
+    
 
 
 
