@@ -35,6 +35,8 @@ const BroductDisplay = (props) => {
                 <div className="productdisplay-right-price-new">${product.new_price}</div>
             </div>
             <div className="brouductdisplay-right-discription">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                 ipsum perferendis possimus eum, aspernatur minima nisi
 
             </div>
             <div className="broductdisplay-right-size">
