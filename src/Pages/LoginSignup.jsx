@@ -5,7 +5,7 @@ const LoginSignup = () => {
   return (
     <div className='loginsignup'>
     <div className="loginsignup-container">
-      <h1>Sign in dowen</h1>
+      <h1>Sign up</h1>
       <div className="loginsignup-fields">
         <input type="text" placeholder='Your Name' />
         <input type="email" placeholder='Email Address' />
@@ -17,7 +17,7 @@ const LoginSignup = () => {
       </p>
       <div className="loginsignup-agree">
         <input type="checkbox"  name='' id=''/>
-        <p>By Continuing, I Agree To Terms Of Use & Privacy Policy.</p>
+        <p></p>
       </div>
     </div>
 
